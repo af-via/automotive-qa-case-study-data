@@ -1,0 +1,481 @@
+event_id,fleet_run_id,scenario_id,timestamp_utc,network,channel,source_ecu,destination_ecu,signal_or_service,expected_max_gap_ms,observed_gap_ms,counter_gap,error_frames,bus_off,link_state,packet_loss_pct,time_sync_offset_ms,service_state
+EV-FR-A-001-CAN,FR-A-001,SC001,2026-10-01T00:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-001-ETH,FR-A-001,SC001,2026-10-01T00:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-001-CAN,FR-B-001,SC001,2026-10-01T00:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-001-ETH,FR-B-001,SC001,2026-10-01T00:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-002-CAN,FR-A-002,SC002,2026-10-01T00:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-002-ETH,FR-A-002,SC002,2026-10-01T00:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-002-CAN,FR-B-002,SC002,2026-10-01T00:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,228,10,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-002-ETH,FR-B-002,SC002,2026-10-01T00:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-003-CAN,FR-A-003,SC003,2026-10-01T00:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-003-ETH,FR-A-003,SC003,2026-10-01T00:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-003-CAN,FR-B-003,SC003,2026-10-01T00:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-003-ETH,FR-B-003,SC003,2026-10-01T00:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-004-CAN,FR-A-004,SC004,2026-10-01T00:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-004-ETH,FR-A-004,SC004,2026-10-01T00:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-004-CAN,FR-B-004,SC004,2026-10-01T00:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-004-ETH,FR-B-004,SC004,2026-10-01T00:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-005-CAN,FR-A-005,SC005,2026-10-01T00:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-005-ETH,FR-A-005,SC005,2026-10-01T00:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-005-CAN,FR-B-005,SC005,2026-10-01T00:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,300,14,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-005-ETH,FR-B-005,SC005,2026-10-01T00:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,40,delayed
+EV-FR-A-006-CAN,FR-A-006,SC006,2026-10-01T00:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-006-ETH,FR-A-006,SC006,2026-10-01T00:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-006-CAN,FR-B-006,SC006,2026-10-01T00:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-006-ETH,FR-B-006,SC006,2026-10-01T00:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-007-CAN,FR-A-007,SC007,2026-10-01T00:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-007-ETH,FR-A-007,SC007,2026-10-01T00:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-007-CAN,FR-B-007,SC007,2026-10-01T00:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-007-ETH,FR-B-007,SC007,2026-10-01T00:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-008-CAN,FR-A-008,SC008,2026-10-01T00:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-008-ETH,FR-A-008,SC008,2026-10-01T00:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-008-CAN,FR-B-008,SC008,2026-10-01T00:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,228,10,0,1,not_applicable,not_applicable,2,delayed
+EV-FR-B-008-ETH,FR-B-008,SC008,2026-10-01T00:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,43,delayed
+EV-FR-A-009-CAN,FR-A-009,SC009,2026-10-01T00:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-009-ETH,FR-A-009,SC009,2026-10-01T00:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-009-CAN,FR-B-009,SC009,2026-10-01T00:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-009-ETH,FR-B-009,SC009,2026-10-01T00:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-010-CAN,FR-A-010,SC010,2026-10-01T01:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-010-ETH,FR-A-010,SC010,2026-10-01T01:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-010-CAN,FR-B-010,SC010,2026-10-01T01:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-010-ETH,FR-B-010,SC010,2026-10-01T01:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-011-CAN,FR-A-011,SC011,2026-10-01T01:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-011-ETH,FR-A-011,SC011,2026-10-01T01:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-011-CAN,FR-B-011,SC011,2026-10-01T01:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-011-ETH,FR-B-011,SC011,2026-10-01T01:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-012-CAN,FR-A-012,SC012,2026-10-01T01:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-012-ETH,FR-A-012,SC012,2026-10-01T01:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-012-CAN,FR-B-012,SC012,2026-10-01T01:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,180,8,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-012-ETH,FR-B-012,SC012,2026-10-01T01:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-013-CAN,FR-A-013,SC013,2026-10-01T01:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-013-ETH,FR-A-013,SC013,2026-10-01T01:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-013-CAN,FR-B-013,SC013,2026-10-01T01:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-013-ETH,FR-B-013,SC013,2026-10-01T01:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-014-CAN,FR-A-014,SC014,2026-10-01T01:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-014-ETH,FR-A-014,SC014,2026-10-01T01:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-014-CAN,FR-B-014,SC014,2026-10-01T01:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-014-ETH,FR-B-014,SC014,2026-10-01T01:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-015-CAN,FR-A-015,SC015,2026-10-01T01:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-015-ETH,FR-A-015,SC015,2026-10-01T01:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-015-CAN,FR-B-015,SC015,2026-10-01T01:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,252,12,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-015-ETH,FR-B-015,SC015,2026-10-01T01:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,50,delayed
+EV-FR-A-016-CAN,FR-A-016,SC016,2026-10-01T01:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-016-ETH,FR-A-016,SC016,2026-10-01T01:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-016-CAN,FR-B-016,SC016,2026-10-01T01:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-016-ETH,FR-B-016,SC016,2026-10-01T01:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-017-CAN,FR-A-017,SC017,2026-10-01T01:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-017-ETH,FR-A-017,SC017,2026-10-01T01:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-017-CAN,FR-B-017,SC017,2026-10-01T01:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-017-ETH,FR-B-017,SC017,2026-10-01T01:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,436,0,0,0,up,0.2,52,delayed
+EV-FR-A-018-CAN,FR-A-018,SC018,2026-10-01T01:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-018-ETH,FR-A-018,SC018,2026-10-01T01:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-018-CAN,FR-B-018,SC018,2026-10-01T01:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,180,8,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-018-ETH,FR-B-018,SC018,2026-10-01T01:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,53,delayed
+EV-FR-A-019-CAN,FR-A-019,SC019,2026-10-01T01:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-019-ETH,FR-A-019,SC019,2026-10-01T01:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-019-CAN,FR-B-019,SC019,2026-10-01T01:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-019-ETH,FR-B-019,SC019,2026-10-01T01:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-020-CAN,FR-A-020,SC020,2026-10-01T02:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-020-ETH,FR-A-020,SC020,2026-10-01T02:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-020-CAN,FR-B-020,SC020,2026-10-01T02:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-020-ETH,FR-B-020,SC020,2026-10-01T02:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-021-CAN,FR-A-021,SC021,2026-10-01T02:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-021-ETH,FR-A-021,SC021,2026-10-01T02:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-021-CAN,FR-B-021,SC021,2026-10-01T02:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-021-ETH,FR-B-021,SC021,2026-10-01T02:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-022-CAN,FR-A-022,SC022,2026-10-01T02:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-022-ETH,FR-A-022,SC022,2026-10-01T02:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-022-CAN,FR-B-022,SC022,2026-10-01T02:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,276,13,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-022-ETH,FR-B-022,SC022,2026-10-01T02:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-023-CAN,FR-A-023,SC023,2026-10-01T02:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-023-ETH,FR-A-023,SC023,2026-10-01T02:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-023-CAN,FR-B-023,SC023,2026-10-01T02:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-023-ETH,FR-B-023,SC023,2026-10-01T02:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-024-CAN,FR-A-024,SC024,2026-10-01T02:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-024-ETH,FR-A-024,SC024,2026-10-01T02:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-024-CAN,FR-B-024,SC024,2026-10-01T02:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-024-ETH,FR-B-024,SC024,2026-10-01T02:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-025-CAN,FR-A-025,SC025,2026-10-01T02:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-025-ETH,FR-A-025,SC025,2026-10-01T02:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-025-CAN,FR-B-025,SC025,2026-10-01T02:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,204,9,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-025-ETH,FR-B-025,SC025,2026-10-01T02:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,40,delayed
+EV-FR-A-026-CAN,FR-A-026,SC026,2026-10-01T02:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-026-ETH,FR-A-026,SC026,2026-10-01T02:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-026-CAN,FR-B-026,SC026,2026-10-01T02:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-026-ETH,FR-B-026,SC026,2026-10-01T02:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-027-CAN,FR-A-027,SC027,2026-10-01T02:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-027-ETH,FR-A-027,SC027,2026-10-01T02:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-027-CAN,FR-B-027,SC027,2026-10-01T02:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-027-ETH,FR-B-027,SC027,2026-10-01T02:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-028-CAN,FR-A-028,SC028,2026-10-01T02:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-028-ETH,FR-A-028,SC028,2026-10-01T02:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-028-CAN,FR-B-028,SC028,2026-10-01T02:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,276,13,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-028-ETH,FR-B-028,SC028,2026-10-01T02:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,43,delayed
+EV-FR-A-029-CAN,FR-A-029,SC029,2026-10-01T02:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-029-ETH,FR-A-029,SC029,2026-10-01T02:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-029-CAN,FR-B-029,SC029,2026-10-01T02:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-029-ETH,FR-B-029,SC029,2026-10-01T02:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-030-CAN,FR-A-030,SC030,2026-10-01T03:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-030-ETH,FR-A-030,SC030,2026-10-01T03:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-030-CAN,FR-B-030,SC030,2026-10-01T03:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-030-ETH,FR-B-030,SC030,2026-10-01T03:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-031-CAN,FR-A-031,SC031,2026-10-01T03:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-031-ETH,FR-A-031,SC031,2026-10-01T03:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-031-CAN,FR-B-031,SC031,2026-10-01T03:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-031-ETH,FR-B-031,SC031,2026-10-01T03:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-032-CAN,FR-A-032,SC032,2026-10-01T03:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-032-ETH,FR-A-032,SC032,2026-10-01T03:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-032-CAN,FR-B-032,SC032,2026-10-01T03:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,228,10,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-032-ETH,FR-B-032,SC032,2026-10-01T03:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-033-CAN,FR-A-033,SC033,2026-10-01T03:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-033-ETH,FR-A-033,SC033,2026-10-01T03:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-033-CAN,FR-B-033,SC033,2026-10-01T03:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-033-ETH,FR-B-033,SC033,2026-10-01T03:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-034-CAN,FR-A-034,SC034,2026-10-01T03:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-034-ETH,FR-A-034,SC034,2026-10-01T03:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-034-CAN,FR-B-034,SC034,2026-10-01T03:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-034-ETH,FR-B-034,SC034,2026-10-01T03:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,512,0,0,0,up,0.2,49,delayed
+EV-FR-A-035-CAN,FR-A-035,SC035,2026-10-01T03:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-035-ETH,FR-A-035,SC035,2026-10-01T03:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-035-CAN,FR-B-035,SC035,2026-10-01T03:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,300,14,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-035-ETH,FR-B-035,SC035,2026-10-01T03:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,50,delayed
+EV-FR-A-036-CAN,FR-A-036,SC036,2026-10-01T03:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-036-ETH,FR-A-036,SC036,2026-10-01T03:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-036-CAN,FR-B-036,SC036,2026-10-01T03:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-036-ETH,FR-B-036,SC036,2026-10-01T03:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-037-CAN,FR-A-037,SC037,2026-10-01T03:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-037-ETH,FR-A-037,SC037,2026-10-01T03:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-037-CAN,FR-B-037,SC037,2026-10-01T03:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-037-ETH,FR-B-037,SC037,2026-10-01T03:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-038-CAN,FR-A-038,SC038,2026-10-01T03:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-038-ETH,FR-A-038,SC038,2026-10-01T03:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-038-CAN,FR-B-038,SC038,2026-10-01T03:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,228,10,0,1,not_applicable,not_applicable,2,delayed
+EV-FR-B-038-ETH,FR-B-038,SC038,2026-10-01T03:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,53,delayed
+EV-FR-A-039-CAN,FR-A-039,SC039,2026-10-01T03:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-039-ETH,FR-A-039,SC039,2026-10-01T03:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-039-CAN,FR-B-039,SC039,2026-10-01T03:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-039-ETH,FR-B-039,SC039,2026-10-01T03:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-040-CAN,FR-A-040,SC040,2026-10-01T04:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-040-ETH,FR-A-040,SC040,2026-10-01T04:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-040-CAN,FR-B-040,SC040,2026-10-01T04:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-040-ETH,FR-B-040,SC040,2026-10-01T04:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-041-CAN,FR-A-041,SC041,2026-10-01T04:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,4,0,not_applicable,not_applicable,2,active
+EV-FR-A-041-ETH,FR-A-041,SC041,2026-10-01T04:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-041-CAN,FR-B-041,SC041,2026-10-01T04:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-041-ETH,FR-B-041,SC041,2026-10-01T04:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-042-CAN,FR-A-042,SC042,2026-10-01T04:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-042-ETH,FR-A-042,SC042,2026-10-01T04:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-042-CAN,FR-B-042,SC042,2026-10-01T04:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,180,8,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-042-ETH,FR-B-042,SC042,2026-10-01T04:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-043-CAN,FR-A-043,SC043,2026-10-01T04:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-043-ETH,FR-A-043,SC043,2026-10-01T04:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-043-CAN,FR-B-043,SC043,2026-10-01T04:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-043-ETH,FR-B-043,SC043,2026-10-01T04:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-044-CAN,FR-A-044,SC044,2026-10-01T04:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-044-ETH,FR-A-044,SC044,2026-10-01T04:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-044-CAN,FR-B-044,SC044,2026-10-01T04:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-044-ETH,FR-B-044,SC044,2026-10-01T04:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-045-CAN,FR-A-045,SC045,2026-10-01T04:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-045-ETH,FR-A-045,SC045,2026-10-01T04:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-045-CAN,FR-B-045,SC045,2026-10-01T04:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,252,12,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-045-ETH,FR-B-045,SC045,2026-10-01T04:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,40,delayed
+EV-FR-A-046-CAN,FR-A-046,SC046,2026-10-01T04:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-046-ETH,FR-A-046,SC046,2026-10-01T04:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-046-CAN,FR-B-046,SC046,2026-10-01T04:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-046-ETH,FR-B-046,SC046,2026-10-01T04:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-047-CAN,FR-A-047,SC047,2026-10-01T04:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-047-ETH,FR-A-047,SC047,2026-10-01T04:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-047-CAN,FR-B-047,SC047,2026-10-01T04:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-047-ETH,FR-B-047,SC047,2026-10-01T04:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-048-CAN,FR-A-048,SC048,2026-10-01T04:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-048-ETH,FR-A-048,SC048,2026-10-01T04:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-048-CAN,FR-B-048,SC048,2026-10-01T04:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,180,8,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-048-ETH,FR-B-048,SC048,2026-10-01T04:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,43,delayed
+EV-FR-A-049-CAN,FR-A-049,SC049,2026-10-01T04:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-049-ETH,FR-A-049,SC049,2026-10-01T04:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-049-CAN,FR-B-049,SC049,2026-10-01T04:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-049-ETH,FR-B-049,SC049,2026-10-01T04:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-050-CAN,FR-A-050,SC050,2026-10-01T05:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-050-ETH,FR-A-050,SC050,2026-10-01T05:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-050-CAN,FR-B-050,SC050,2026-10-01T05:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-050-ETH,FR-B-050,SC050,2026-10-01T05:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-051-CAN,FR-A-051,SC051,2026-10-01T05:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-051-ETH,FR-A-051,SC051,2026-10-01T05:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-051-CAN,FR-B-051,SC051,2026-10-01T05:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-051-ETH,FR-B-051,SC051,2026-10-01T05:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,398,0,0,0,up,0.2,46,delayed
+EV-FR-A-052-CAN,FR-A-052,SC052,2026-10-01T05:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-052-ETH,FR-A-052,SC052,2026-10-01T05:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-052-CAN,FR-B-052,SC052,2026-10-01T05:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,276,13,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-052-ETH,FR-B-052,SC052,2026-10-01T05:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-053-CAN,FR-A-053,SC053,2026-10-01T05:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-053-ETH,FR-A-053,SC053,2026-10-01T05:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-053-CAN,FR-B-053,SC053,2026-10-01T05:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-053-ETH,FR-B-053,SC053,2026-10-01T05:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-054-CAN,FR-A-054,SC054,2026-10-01T05:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-054-ETH,FR-A-054,SC054,2026-10-01T05:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-054-CAN,FR-B-054,SC054,2026-10-01T05:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-054-ETH,FR-B-054,SC054,2026-10-01T05:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-055-CAN,FR-A-055,SC055,2026-10-01T05:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-055-ETH,FR-A-055,SC055,2026-10-01T05:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-055-CAN,FR-B-055,SC055,2026-10-01T05:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,204,9,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-055-ETH,FR-B-055,SC055,2026-10-01T05:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,50,delayed
+EV-FR-A-056-CAN,FR-A-056,SC056,2026-10-01T05:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-056-ETH,FR-A-056,SC056,2026-10-01T05:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-056-CAN,FR-B-056,SC056,2026-10-01T05:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-056-ETH,FR-B-056,SC056,2026-10-01T05:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-057-CAN,FR-A-057,SC057,2026-10-01T05:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-057-ETH,FR-A-057,SC057,2026-10-01T05:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-057-CAN,FR-B-057,SC057,2026-10-01T05:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-057-ETH,FR-B-057,SC057,2026-10-01T05:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-058-CAN,FR-A-058,SC058,2026-10-01T05:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-058-ETH,FR-A-058,SC058,2026-10-01T05:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-058-CAN,FR-B-058,SC058,2026-10-01T05:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,276,13,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-058-ETH,FR-B-058,SC058,2026-10-01T05:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,53,delayed
+EV-FR-A-059-CAN,FR-A-059,SC059,2026-10-01T05:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-059-ETH,FR-A-059,SC059,2026-10-01T05:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-059-CAN,FR-B-059,SC059,2026-10-01T05:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-059-ETH,FR-B-059,SC059,2026-10-01T05:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-060-CAN,FR-A-060,SC060,2026-10-01T06:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-060-ETH,FR-A-060,SC060,2026-10-01T06:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-060-CAN,FR-B-060,SC060,2026-10-01T06:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-060-ETH,FR-B-060,SC060,2026-10-01T06:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-061-CAN,FR-A-061,SC061,2026-10-01T06:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-061-ETH,FR-A-061,SC061,2026-10-01T06:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-061-CAN,FR-B-061,SC061,2026-10-01T06:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-061-ETH,FR-B-061,SC061,2026-10-01T06:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-062-CAN,FR-A-062,SC062,2026-10-01T06:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-062-ETH,FR-A-062,SC062,2026-10-01T06:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-062-CAN,FR-B-062,SC062,2026-10-01T06:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,228,10,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-062-ETH,FR-B-062,SC062,2026-10-01T06:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-063-CAN,FR-A-063,SC063,2026-10-01T06:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-063-ETH,FR-A-063,SC063,2026-10-01T06:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-063-CAN,FR-B-063,SC063,2026-10-01T06:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-063-ETH,FR-B-063,SC063,2026-10-01T06:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-064-CAN,FR-A-064,SC064,2026-10-01T06:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-064-ETH,FR-A-064,SC064,2026-10-01T06:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-064-CAN,FR-B-064,SC064,2026-10-01T06:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-064-ETH,FR-B-064,SC064,2026-10-01T06:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-065-CAN,FR-A-065,SC065,2026-10-01T06:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-065-ETH,FR-A-065,SC065,2026-10-01T06:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-065-CAN,FR-B-065,SC065,2026-10-01T06:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,300,14,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-065-ETH,FR-B-065,SC065,2026-10-01T06:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,40,delayed
+EV-FR-A-066-CAN,FR-A-066,SC066,2026-10-01T06:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-066-ETH,FR-A-066,SC066,2026-10-01T06:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-066-CAN,FR-B-066,SC066,2026-10-01T06:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-066-ETH,FR-B-066,SC066,2026-10-01T06:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-067-CAN,FR-A-067,SC067,2026-10-01T06:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-067-ETH,FR-A-067,SC067,2026-10-01T06:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-067-CAN,FR-B-067,SC067,2026-10-01T06:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-067-ETH,FR-B-067,SC067,2026-10-01T06:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-068-CAN,FR-A-068,SC068,2026-10-01T06:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-068-ETH,FR-A-068,SC068,2026-10-01T06:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-068-CAN,FR-B-068,SC068,2026-10-01T06:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,228,10,0,1,not_applicable,not_applicable,2,delayed
+EV-FR-B-068-ETH,FR-B-068,SC068,2026-10-01T06:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,43,delayed
+EV-FR-A-069-CAN,FR-A-069,SC069,2026-10-01T06:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-069-ETH,FR-A-069,SC069,2026-10-01T06:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-069-CAN,FR-B-069,SC069,2026-10-01T06:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-069-ETH,FR-B-069,SC069,2026-10-01T06:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-070-CAN,FR-A-070,SC070,2026-10-01T07:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-070-ETH,FR-A-070,SC070,2026-10-01T07:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-070-CAN,FR-B-070,SC070,2026-10-01T07:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-070-ETH,FR-B-070,SC070,2026-10-01T07:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-071-CAN,FR-A-071,SC071,2026-10-01T07:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-071-ETH,FR-A-071,SC071,2026-10-01T07:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-071-CAN,FR-B-071,SC071,2026-10-01T07:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-071-ETH,FR-B-071,SC071,2026-10-01T07:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-072-CAN,FR-A-072,SC072,2026-10-01T07:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-072-ETH,FR-A-072,SC072,2026-10-01T07:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-072-CAN,FR-B-072,SC072,2026-10-01T07:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,180,8,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-072-ETH,FR-B-072,SC072,2026-10-01T07:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-073-CAN,FR-A-073,SC073,2026-10-01T07:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-073-ETH,FR-A-073,SC073,2026-10-01T07:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-073-CAN,FR-B-073,SC073,2026-10-01T07:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-073-ETH,FR-B-073,SC073,2026-10-01T07:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-074-CAN,FR-A-074,SC074,2026-10-01T07:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-074-ETH,FR-A-074,SC074,2026-10-01T07:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-074-CAN,FR-B-074,SC074,2026-10-01T07:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-074-ETH,FR-B-074,SC074,2026-10-01T07:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-075-CAN,FR-A-075,SC075,2026-10-01T07:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-075-ETH,FR-A-075,SC075,2026-10-01T07:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-075-CAN,FR-B-075,SC075,2026-10-01T07:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,252,12,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-075-ETH,FR-B-075,SC075,2026-10-01T07:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,50,delayed
+EV-FR-A-076-CAN,FR-A-076,SC076,2026-10-01T07:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-076-ETH,FR-A-076,SC076,2026-10-01T07:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-076-CAN,FR-B-076,SC076,2026-10-01T07:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-076-ETH,FR-B-076,SC076,2026-10-01T07:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-077-CAN,FR-A-077,SC077,2026-10-01T07:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-077-ETH,FR-A-077,SC077,2026-10-01T07:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-077-CAN,FR-B-077,SC077,2026-10-01T07:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-077-ETH,FR-B-077,SC077,2026-10-01T07:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-078-CAN,FR-A-078,SC078,2026-10-01T07:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-078-ETH,FR-A-078,SC078,2026-10-01T07:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-078-CAN,FR-B-078,SC078,2026-10-01T07:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,180,8,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-078-ETH,FR-B-078,SC078,2026-10-01T07:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,53,delayed
+EV-FR-A-079-CAN,FR-A-079,SC079,2026-10-01T07:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-079-ETH,FR-A-079,SC079,2026-10-01T07:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-079-CAN,FR-B-079,SC079,2026-10-01T07:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-079-ETH,FR-B-079,SC079,2026-10-01T07:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-080-CAN,FR-A-080,SC080,2026-10-01T08:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-080-ETH,FR-A-080,SC080,2026-10-01T08:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-080-CAN,FR-B-080,SC080,2026-10-01T08:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-080-ETH,FR-B-080,SC080,2026-10-01T08:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-081-CAN,FR-A-081,SC081,2026-10-01T08:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-081-ETH,FR-A-081,SC081,2026-10-01T08:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-081-CAN,FR-B-081,SC081,2026-10-01T08:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-081-ETH,FR-B-081,SC081,2026-10-01T08:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-082-CAN,FR-A-082,SC082,2026-10-01T08:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,4,0,not_applicable,not_applicable,2,active
+EV-FR-A-082-ETH,FR-A-082,SC082,2026-10-01T08:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-082-CAN,FR-B-082,SC082,2026-10-01T08:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,276,13,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-082-ETH,FR-B-082,SC082,2026-10-01T08:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-083-CAN,FR-A-083,SC083,2026-10-01T08:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-083-ETH,FR-A-083,SC083,2026-10-01T08:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-083-CAN,FR-B-083,SC083,2026-10-01T08:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-083-ETH,FR-B-083,SC083,2026-10-01T08:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-084-CAN,FR-A-084,SC084,2026-10-01T08:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-084-ETH,FR-A-084,SC084,2026-10-01T08:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-084-CAN,FR-B-084,SC084,2026-10-01T08:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-084-ETH,FR-B-084,SC084,2026-10-01T08:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-085-CAN,FR-A-085,SC085,2026-10-01T08:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-085-ETH,FR-A-085,SC085,2026-10-01T08:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-085-CAN,FR-B-085,SC085,2026-10-01T08:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,204,9,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-085-ETH,FR-B-085,SC085,2026-10-01T08:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,40,delayed
+EV-FR-A-086-CAN,FR-A-086,SC086,2026-10-01T08:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-086-ETH,FR-A-086,SC086,2026-10-01T08:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-086-CAN,FR-B-086,SC086,2026-10-01T08:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-086-ETH,FR-B-086,SC086,2026-10-01T08:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-087-CAN,FR-A-087,SC087,2026-10-01T08:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-087-ETH,FR-A-087,SC087,2026-10-01T08:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-087-CAN,FR-B-087,SC087,2026-10-01T08:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-087-ETH,FR-B-087,SC087,2026-10-01T08:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-088-CAN,FR-A-088,SC088,2026-10-01T08:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-088-ETH,FR-A-088,SC088,2026-10-01T08:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-088-CAN,FR-B-088,SC088,2026-10-01T08:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,276,13,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-088-ETH,FR-B-088,SC088,2026-10-01T08:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,43,delayed
+EV-FR-A-089-CAN,FR-A-089,SC089,2026-10-01T08:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-089-ETH,FR-A-089,SC089,2026-10-01T08:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-089-CAN,FR-B-089,SC089,2026-10-01T08:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-089-ETH,FR-B-089,SC089,2026-10-01T08:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-090-CAN,FR-A-090,SC090,2026-10-01T09:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-090-ETH,FR-A-090,SC090,2026-10-01T09:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-090-CAN,FR-B-090,SC090,2026-10-01T09:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-090-ETH,FR-B-090,SC090,2026-10-01T09:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-091-CAN,FR-A-091,SC091,2026-10-01T09:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-091-ETH,FR-A-091,SC091,2026-10-01T09:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-091-CAN,FR-B-091,SC091,2026-10-01T09:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-091-ETH,FR-B-091,SC091,2026-10-01T09:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-092-CAN,FR-A-092,SC092,2026-10-01T09:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-092-ETH,FR-A-092,SC092,2026-10-01T09:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-092-CAN,FR-B-092,SC092,2026-10-01T09:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,228,10,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-092-ETH,FR-B-092,SC092,2026-10-01T09:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-093-CAN,FR-A-093,SC093,2026-10-01T09:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-093-ETH,FR-A-093,SC093,2026-10-01T09:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-093-CAN,FR-B-093,SC093,2026-10-01T09:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-093-ETH,FR-B-093,SC093,2026-10-01T09:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-094-CAN,FR-A-094,SC094,2026-10-01T09:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-094-ETH,FR-A-094,SC094,2026-10-01T09:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-094-CAN,FR-B-094,SC094,2026-10-01T09:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-094-ETH,FR-B-094,SC094,2026-10-01T09:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-095-CAN,FR-A-095,SC095,2026-10-01T09:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-095-ETH,FR-A-095,SC095,2026-10-01T09:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-095-CAN,FR-B-095,SC095,2026-10-01T09:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,300,14,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-095-ETH,FR-B-095,SC095,2026-10-01T09:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,50,delayed
+EV-FR-A-096-CAN,FR-A-096,SC096,2026-10-01T09:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-096-ETH,FR-A-096,SC096,2026-10-01T09:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-096-CAN,FR-B-096,SC096,2026-10-01T09:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-096-ETH,FR-B-096,SC096,2026-10-01T09:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-097-CAN,FR-A-097,SC097,2026-10-01T09:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-097-ETH,FR-A-097,SC097,2026-10-01T09:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-097-CAN,FR-B-097,SC097,2026-10-01T09:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-097-ETH,FR-B-097,SC097,2026-10-01T09:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-098-CAN,FR-A-098,SC098,2026-10-01T09:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-098-ETH,FR-A-098,SC098,2026-10-01T09:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-098-CAN,FR-B-098,SC098,2026-10-01T09:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,228,10,0,1,not_applicable,not_applicable,2,delayed
+EV-FR-B-098-ETH,FR-B-098,SC098,2026-10-01T09:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,53,delayed
+EV-FR-A-099-CAN,FR-A-099,SC099,2026-10-01T09:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-099-ETH,FR-A-099,SC099,2026-10-01T09:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-099-CAN,FR-B-099,SC099,2026-10-01T09:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-099-ETH,FR-B-099,SC099,2026-10-01T09:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-100-CAN,FR-A-100,SC100,2026-10-01T10:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-100-ETH,FR-A-100,SC100,2026-10-01T10:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-100-CAN,FR-B-100,SC100,2026-10-01T10:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-100-ETH,FR-B-100,SC100,2026-10-01T10:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-101-CAN,FR-A-101,SC101,2026-10-01T10:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-101-ETH,FR-A-101,SC101,2026-10-01T10:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-101-CAN,FR-B-101,SC101,2026-10-01T10:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-101-ETH,FR-B-101,SC101,2026-10-01T10:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-102-CAN,FR-A-102,SC102,2026-10-01T10:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-102-ETH,FR-A-102,SC102,2026-10-01T10:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-102-CAN,FR-B-102,SC102,2026-10-01T10:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,180,8,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-102-ETH,FR-B-102,SC102,2026-10-01T10:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,436,0,0,0,up,0.2,37,delayed
+EV-FR-A-103-CAN,FR-A-103,SC103,2026-10-01T10:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-103-ETH,FR-A-103,SC103,2026-10-01T10:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-103-CAN,FR-B-103,SC103,2026-10-01T10:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-103-ETH,FR-B-103,SC103,2026-10-01T10:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-104-CAN,FR-A-104,SC104,2026-10-01T10:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-104-ETH,FR-A-104,SC104,2026-10-01T10:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-104-CAN,FR-B-104,SC104,2026-10-01T10:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-104-ETH,FR-B-104,SC104,2026-10-01T10:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-105-CAN,FR-A-105,SC105,2026-10-01T10:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-105-ETH,FR-A-105,SC105,2026-10-01T10:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-105-CAN,FR-B-105,SC105,2026-10-01T10:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,252,12,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-105-ETH,FR-B-105,SC105,2026-10-01T10:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,40,delayed
+EV-FR-A-106-CAN,FR-A-106,SC106,2026-10-01T10:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-106-ETH,FR-A-106,SC106,2026-10-01T10:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-106-CAN,FR-B-106,SC106,2026-10-01T10:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-106-ETH,FR-B-106,SC106,2026-10-01T10:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-107-CAN,FR-A-107,SC107,2026-10-01T10:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-107-ETH,FR-A-107,SC107,2026-10-01T10:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-107-CAN,FR-B-107,SC107,2026-10-01T10:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-107-ETH,FR-B-107,SC107,2026-10-01T10:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-108-CAN,FR-A-108,SC108,2026-10-01T10:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-108-ETH,FR-A-108,SC108,2026-10-01T10:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-108-CAN,FR-B-108,SC108,2026-10-01T10:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,180,8,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-108-ETH,FR-B-108,SC108,2026-10-01T10:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,43,delayed
+EV-FR-A-109-CAN,FR-A-109,SC109,2026-10-01T10:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-109-ETH,FR-A-109,SC109,2026-10-01T10:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-109-CAN,FR-B-109,SC109,2026-10-01T10:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-109-ETH,FR-B-109,SC109,2026-10-01T10:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-110-CAN,FR-A-110,SC110,2026-10-01T11:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-110-ETH,FR-A-110,SC110,2026-10-01T11:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-110-CAN,FR-B-110,SC110,2026-10-01T11:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-110-ETH,FR-B-110,SC110,2026-10-01T11:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-A-111-CAN,FR-A-111,SC111,2026-10-01T11:06:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-111-ETH,FR-A-111,SC111,2026-10-01T11:06:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-111-CAN,FR-B-111,SC111,2026-10-01T11:06:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-111-ETH,FR-B-111,SC111,2026-10-01T11:06:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-112-CAN,FR-A-112,SC112,2026-10-01T11:12:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-112-ETH,FR-A-112,SC112,2026-10-01T11:12:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-112-CAN,FR-B-112,SC112,2026-10-01T11:12:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,276,13,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-112-ETH,FR-B-112,SC112,2026-10-01T11:12:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-113-CAN,FR-A-113,SC113,2026-10-01T11:18:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-113-ETH,FR-A-113,SC113,2026-10-01T11:18:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-113-CAN,FR-B-113,SC113,2026-10-01T11:18:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-113-ETH,FR-B-113,SC113,2026-10-01T11:18:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-A-114-CAN,FR-A-114,SC114,2026-10-01T11:24:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-114-ETH,FR-A-114,SC114,2026-10-01T11:24:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-114-CAN,FR-B-114,SC114,2026-10-01T11:24:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,16,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-114-ETH,FR-B-114,SC114,2026-10-01T11:24:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-A-115-CAN,FR-A-115,SC115,2026-10-01T11:30:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,17,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-115-ETH,FR-A-115,SC115,2026-10-01T11:30:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-115-CAN,FR-B-115,SC115,2026-10-01T11:30:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,204,9,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-115-ETH,FR-B-115,SC115,2026-10-01T11:30:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,360,0,0,0,up,0.2,50,delayed
+EV-FR-A-116-CAN,FR-A-116,SC116,2026-10-01T11:36:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-116-ETH,FR-A-116,SC116,2026-10-01T11:36:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-B-116-CAN,FR-B-116,SC116,2026-10-01T11:36:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,18,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-116-ETH,FR-B-116,SC116,2026-10-01T11:36:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,46,0,0,0,up,0.0,1,active
+EV-FR-A-117-CAN,FR-A-117,SC117,2026-10-01T11:42:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-117-ETH,FR-A-117,SC117,2026-10-01T11:42:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-B-117-CAN,FR-B-117,SC117,2026-10-01T11:42:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,19,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-117-ETH,FR-B-117,SC117,2026-10-01T11:42:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,57,0,0,0,up,0.0,2,active
+EV-FR-A-118-CAN,FR-A-118,SC118,2026-10-01T11:48:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,20,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-118-ETH,FR-A-118,SC118,2026-10-01T11:48:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,68,0,0,0,up,0.0,3,active
+EV-FR-B-118-CAN,FR-B-118,SC118,2026-10-01T11:48:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,276,13,0,0,not_applicable,not_applicable,2,delayed
+EV-FR-B-118-ETH,FR-B-118,SC118,2026-10-01T11:48:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,474,0,0,0,up,0.2,53,delayed
+EV-FR-A-119-CAN,FR-A-119,SC119,2026-10-01T11:54:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-119-ETH,FR-A-119,SC119,2026-10-01T11:54:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,79,0,0,0,up,0.0,4,active
+EV-FR-B-119-CAN,FR-B-119,SC119,2026-10-01T11:54:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,14,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-119-ETH,FR-B-119,SC119,2026-10-01T11:54:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,512,0,0,0,up,0.2,54,delayed
+EV-FR-A-120-CAN,FR-A-120,SC120,2026-10-01T12:00:00.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-A-120-ETH,FR-A-120,SC120,2026-10-01T12:00:00.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active
+EV-FR-B-120-CAN,FR-B-120,SC120,2026-10-01T12:00:20.200000Z,CAN,CAN-1,Central Gateway,Perception ECU,0x180 VehicleSpeed,20,15,0,0,0,not_applicable,not_applicable,2,active
+EV-FR-B-120-ETH,FR-B-120,SC120,2026-10-01T12:00:20.210000Z,Ethernet,ETH-1,Central Gateway,Perception ECU,VehicleContext SOME/IP event,100,35,0,0,0,up,0.0,0,active

@@ -1,0 +1,5 @@
+vehicle_variant,ecu,hardware_revision,bootloader,application,calibration,software_build,networks
+A,Perception ECU,C,1.2,4.8.1,ADAS-C3,PER-481-2026.08,CAN;Ethernet
+A,Central Gateway,B,2.1,7.2.5,GW-A2,GW-725-2026.08,CAN;Ethernet
+B,Perception ECU,C,1.2,4.8.2,ADAS-C4,PER-482-2026.10,CAN;Ethernet
+B,Central Gateway,B,2.1,7.3.0,GW-B1,GW-730-2026.10,CAN;Ethernet
